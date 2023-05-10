@@ -1,5 +1,5 @@
 import Headers from './component/navbar';
-//import login from "./view/login";
+//import login from './view/login';
 function App(){
   return(
     <>
