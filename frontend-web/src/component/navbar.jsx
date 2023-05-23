@@ -27,7 +27,7 @@ function CollapsibleExample() {
                                 <Nav.Item><Link to='/acerca' className='nav-link'>Acerca</Link></Nav.Item>
                             </Nav>
                             <Nav>
-                                <Nav.Link href="#deets">More deets</Nav.Link>
+                                <Nav.Link href="#deets">Cuenta</Nav.Link>
                                 <Nav.Link eventKey={2} href="#memes">
                                     <FontAwesomeIcon icon={faUser} />
                                 </Nav.Link>
