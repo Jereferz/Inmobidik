@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
+const conex = require("./db.js");
 
 const app = express();
 app.use(express.json());
@@ -52,6 +53,8 @@ app.get("/usuario/:id/ventas", verifyToken, (req, res)=>{
     ];
     res.json(datos);
 });
+
+
 
 app.listen(9999, ()=>{
     console.log("Sever run port: 9999");
